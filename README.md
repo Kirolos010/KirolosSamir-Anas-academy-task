@@ -29,6 +29,30 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+##Getting Started
+Follow these steps to get the project up and running on your local machine:
+
+Clone the repository to your local machine:
+   git clone https://github.com/Mahmoud72E/task_anasacademy.git
+Navigate to the project directory:
+        cd task_anasacademy
+Install the project dependencies using Composer:
+        composer install
+Copy the .env.example file and rename it to .env:
+        cp .env.example .env
+Generate the application key:
+        php artisan key:generate
+Update the database configuration in the .env file with your database credentials.
+
+Run the database migrations to create the necessary tables:
+
+    php artisan migrate
+Seed the database with sample data:
+    php artisan db:seed
+Start the development server:
+    php artisan serve
+Open your web browser and visit http://127.0.0.1:8000/ to access the application.
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
