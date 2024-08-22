@@ -37,7 +37,7 @@ Clone the repository to your local machine:
    git clone [https://github.com/Kirolos010/KirolosSamir-Anas-academy-task/tree/master].
 Navigate to the project directory:
 
-        cd task_anasacademy
+        cd KirolosSamir-Anas-academy-task
 Install the project dependencies using Composer:
 
         composer install
