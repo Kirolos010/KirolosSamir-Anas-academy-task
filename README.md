@@ -34,7 +34,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 Follow these steps to get the project up and running on your local machine:
 
 Clone the repository to your local machine:
-   git clone [https://github.com/Mahmoud72E/task_anasacademy.git](https://github.com/Kirolos010/KirolosSamir-Anas-academy-task/tree/master).
+   git clone [https://github.com/Kirolos010/KirolosSamir-Anas-academy-task/tree/master].
 Navigate to the project directory:
 
         cd task_anasacademy
